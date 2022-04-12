@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Information</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body id="body">
+
+    <header id="header">
+        <div class="titulo">
+            <h1>Great Stuff Ind.</h1>
+            <div class="botones">
+                <img src="../img/lupa_1.png" alt="lupa" class="lupa"><!-- Botón -->
+                <img src="../img/carrito_2.png" alt="carrito de compras" class="carrito"><!-- Botón -->
+            </div>
+        </div>
+    </header>
+
+    <div id="navContainer">
+        <nav class="navegador">
+            <div>
+                <img src="../img/GS_logo_3.png" alt="esfera-roja" width="50" class="rotate"><!-- Logo -->
+            </div>
+            <div class="menu">
+                <ul>
+                    <li class="transitionColor1"><a href="../index.html">Home</a></li>
+                    <li>Stuff
+                        <ul>
+                            <li class="transitionColor2 padlist"><a href="./object_keepers.html">"Object Keepers" Collection</a></li>
+                            <li class="transitionColor3 padlist"><a href="./catalog.html">_001-017 Catalog</a></li>
+                        </ul>
+                    </li>
+                    <li class="transitionColor4"><a href="./us.html">Us</a></li>
+                    <li class="transitionColor5"><a href="./shop_info.html">Shop Information</a>
+                        <ul class="transitionNone">
+                            <li class="padlist2">Contact</li>
+                            <li class="padlist2">Location</li>
+                            <li class="padlist2">Social Media</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <section id="shopInformation" class="shopInfo_grid">
+        <!-- Contact -->
+        <div class="contact">
+            <h2> < Contact > </h2>
+            <form action="#" method="#" enctype="#" class="form">
+                <fieldset>
+                    <legend></legend>
+                    <div class="email">
+                        <label for="e-mail">E-mail</label>
+                        <input type="text" id="e-mail" placeholder="Enter your e-mail" required>
+                    </div>
+                    <div class="textarea">
+                        <label for="text"></label>
+                        <textarea name="text" id="text" cols="16" rows="1"></textarea>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Send">
+                    </div>    
+                </fieldset>
+            </form>
+        </div>
+        
+        <!-- Location -->
+        <div class="location">
+            <h2>>Map<</h2>
+            <div class="map">
+                <iframe class="googleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13930.953831630617!2d-58.378226782836386!3d-34.61750018846873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccad5922f9ac9%3A0xc491828d12d39c84!2sM%C3%A9xico%20671%2C%20C1097AAM%20CABA!5e0!3m2!1ses!2sar!4v1647314526825!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        
+        <!-- Social Media -->
+        <div class="information">
+            <div class="estampilla"> <!--ESTAMPILLA-->
+                <p class="wwshipp">World Wide Shipping</p>
+                <img src="../img/GS_logo_3.png" alt="esfera-roja" width="50"><!-- Logo -->
+            </div>
+            <div>
+                <p class="datos">
+                    Design by GREAT STUFF Ind. <br>
+                    IG xxxxxxxxx <br>
+                    office@greatstuff.com <br>
+                    Mexico 671, Bs.As., ARG. <br>
+                    http://www.greatstuff.com
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        &copy; 2022 GREAT STUFF INDUSTRIES - All rights reserved.
+    </footer>
+
+</body>
+</html>
