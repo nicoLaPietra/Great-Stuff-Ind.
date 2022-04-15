@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     list-style-type: none;
+    box-sizing: border-box;
 }
 
 /* -------- ESTILOS GENERALES -------- */
@@ -34,61 +35,61 @@ body {
     }
 }
 
+/* mediaQuerie mobile FONT */
+@media screen and (max-width: 550px) {
+    html {
+        font-size: 79%;
+    }
+}
 
 /* header ---------------*/
-#header h1 {
-    font-size: 2rem;
-}
 #header {
     grid-area: header;
 }
-.titulo {
+.navbar-brand {
+    font-size: 2rem;
+}
+.encabezadoStyle {
     background-color: #c8ebf5;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3.5vh;
-    padding-left: 2vw;
 }
-.botones {
-    padding-top: 1.1vh;
-    padding-right: 1vw;
+#navbarSupportedContent, .color1 a {
+    color: #004cff;
 }
-.lupa {
-    width: 25px;
-    margin-right: 1vw;
-    margin-bottom: 0.3vh;
+#navbarSupportedContent, .color2 a {
+    color: #f13939;
 }
-.carrito {
-    width: 29px;
-    margin-right: 0.5vw;
+#navbarSupportedContent, .color3 a {
+    color: #b072bd;
 }
-.hambur {
-    display: none;
+#navbarSupportedContent, .color4 a {
+    color: #3c9370;
+}
+#navbarSupportedContent, .color5 a {
+    color: #f8b63c;
 }
 
-/* mediaQuerie mobile #header */
-@media screen and (max-width: 1023px) {
-    .titulo {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;    
+@media (min-width: 992px) and (max-width: 1023px) {
+    #navbarSupportedContent, .color1 a {
+        color: #004cff;
     }
-    .botones {
-        justify-self: end;
+    #navbarSupportedContent, .color2 a {
+        color: #f13939;
     }
-    .hambur {
-        display: contents;
+    #navbarSupportedContent, .color3 a {
+        color: #b072bd;
     }
-   /*  #header h1 {
-        font-size: 1.5rem;
-        padding-left: 4vw;
+    #navbarSupportedContent, .color4 a {
+        color: #3c9370;
     }
-    .lupa {
-        width: 20px;
+    #navbarSupportedContent, .color5 a {
+        color: #f8b63c;
     }
-    .carrito {
-        width: 24px;
-    } */
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar-nav {
+        display: none;
+    }
 }
 
 /* navContainer ---------------*/
@@ -96,12 +97,19 @@ body {
     grid-area: nav;
 }
 .navegador {
-    padding: 4vh;
+    padding-top: 4vh;
     width: 23vw;
     height: 50vh;  
 }
 .navegador li {
     font-size: 1rem;
+}
+.fixpad {
+    padding: 0%;
+    padding-top: 3vh;
+}
+.fixpad2 {
+    padding: 0%;
 }
 .padlist {
     margin-left: 2.5vw;
@@ -195,11 +203,7 @@ body {
 }
 
 /* mediaQuerie mobile #footer */
-@media screen and (max-width: 767px) {
-    #footer {
-        font-size: 0.6rem;
-    }
-}
+/* (aun sin necesitar) */
 
 /* -------- ESTILOS PAGES -------- */
 
@@ -229,11 +233,6 @@ body {
 .galeriaHome {
     width: 70vw;
     padding: 3vh;
-    /* border: 1.5vh solid #b072bd;
-    border-style: double;
-    border-left-color: #f13939;
-    border-right-color: #59daa6;
-    border-bottom-color: #f8b63c; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 0.6fr);
@@ -251,12 +250,6 @@ body {
 }
 
 /* mediaQuerie mobile HOME */
-@media screen and (max-width: 479px) {
-    #main h2 {
-        padding: 5vh;
-        font-size: 1rem;
-    }
-}
 @media screen and (max-width: 1023px) {
     .galeriaHome {
         width: auto;
@@ -447,22 +440,8 @@ body {
     font-size: 1.5rem;
     color: #f8b63c
 }
-.form {
-    padding: 0 3vw 0 3vw;
-}
-fieldset {
-    width: 10vw;
-    height: 20vh;
-    background-color: #f8b63c;
-}
-.email {
-    padding: 2vh 1vw;
-}
-.textarea {
-    padding: 0 1vw;
-}
-.submit {
-    padding: 0vh 1vw;
+.mb-3 {
+    padding: 0 0 0 3vw;
 }
 
 /* location */

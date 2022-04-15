@@ -16,14 +16,23 @@
 <body id="body">
 
     <header id="header">
-        <div class="titulo">
-            <div class="hambur">Hamburguesa</div>
-            <h1>Great Stuff Ind.</h1>
-            <div class="botones">
-                <img src="../img/lupa_1.png" alt="lupa" class="lupa"><!-- Botón -->
-                <img src="../img/carrito_2.png" alt="carrito de compras" class="carrito"><!-- Botón -->
+        <nav class="navbar navbar-expand-lg navbar-light encabezadoStyle">
+            <div class="container-fluid encabezadoOrden">
+                <a class="navbar-brand" href="../index.html">Great Stuff Ind.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="color1"><a href="../index.html">Home   >>>  </a></li>
+                        <li class="color2"><a href="./object_keepers.html">"Object Keepers" Collection   >>></a></li>
+                        <li class="color3"><a href="./catalog.html">_001-017 Catalog   >>></a></li>
+                        <li class="color4"><a href="./us.html">Us   >>></a></li>
+                        <li class="color5"><a href="./shop_info.html">Shop Information   >>></a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
 
     <div id="navContainer">
@@ -32,10 +41,10 @@
                 <img src="../img/GS_logo_3.png" alt="esfera-roja" width="50" class="rotate"><!-- Logo -->
             </div>
             <div class="menu">
-                <ul>
+                <ul class="fixpad">
                     <li class="transitionColor1"><a href="../index.html">Home</a></li>
                     <li>Stuff
-                        <ul>
+                        <ul class="fixpad2">
                             <li class="transitionColor2 padlist"><a href="./object_keepers.html">"Object Keepers" Collection</a></li>
                             <li class="transitionColor3 padlist"><a href="./catalog.html">_001-017 Catalog</a></li>
                         </ul>
@@ -57,22 +66,16 @@
         <!-- Contact -->
         <div class="contact">
             <h2> < Contact > </h2>
-            <form action="#" method="#" enctype="#" class="form">
-                <fieldset>
-                    <legend></legend>
-                    <div class="email">
-                        <label for="e-mail">E-mail</label>
-                        <input type="text" id="e-mail" placeholder="Enter your e-mail" required>
-                    </div>
-                    <div class="textarea">
-                        <label for="text"></label>
-                        <textarea name="text" id="text" cols="16" rows="1"></textarea>
-                    </div>
-                    <div class="submit">
-                        <input type="submit" value="Send">
-                    </div>    
-                </fieldset>
-            </form>
+            <div class="contactColor">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your e-mail">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Text</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
         </div>
         
         <!-- Location -->
