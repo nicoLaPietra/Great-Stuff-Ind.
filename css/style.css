@@ -37,9 +37,9 @@ body {
 
 /* mediaQuerie mobile FONT */
 @media screen and (max-width: 550px) {
-    html {
+   /*  html {
         font-size: 79%;
-    }
+    } */
 }
 
 /* header ---------------*/
@@ -52,40 +52,33 @@ body {
 .encabezadoStyle {
     background-color: #c8ebf5;
 }
-#navbarSupportedContent, .color1 a {
+#navbarSupportedContent, .cbHeader a {
+    color: #000;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+#navbarSupportedContent, .color1header {
     color: #004cff;
 }
-#navbarSupportedContent, .color2 a {
+#navbarSupportedContent, .color2header {
     color: #f13939;
 }
-#navbarSupportedContent, .color3 a {
+#navbarSupportedContent, .color3header {
     color: #b072bd;
 }
-#navbarSupportedContent, .color4 a {
+#navbarSupportedContent, .color4header{
     color: #3c9370;
 }
-#navbarSupportedContent, .color5 a {
+#navbarSupportedContent, .color5header{
     color: #f8b63c;
 }
 
+/* mediaQuerie mobile #header */
 @media (min-width: 992px) and (max-width: 1023px) {
-    #navbarSupportedContent, .color1 a {
-        color: #004cff;
-    }
-    #navbarSupportedContent, .color2 a {
-        color: #f13939;
-    }
-    #navbarSupportedContent, .color3 a {
-        color: #b072bd;
-    }
-    #navbarSupportedContent, .color4 a {
-        color: #3c9370;
-    }
-    #navbarSupportedContent, .color5 a {
-        color: #f8b63c;
+    .navbar-expand-lg {
+        flex-wrap: wrap;
     }
 }
-
 @media screen and (min-width: 1024px) {
     .navbar-nav {
         display: none;
@@ -101,8 +94,11 @@ body {
     width: 23vw;
     height: 50vh;  
 }
+.navegador li a {
+    color: #000000;
+}
 .navegador li {
-    font-size: 1rem;
+    color: #000000;
 }
 .fixpad {
     padding: 0%;
@@ -115,7 +111,7 @@ body {
     margin-left: 2.5vw;
 }
 .padlist2 {
-    margin-left: 9vw;
+    margin-left: 6vw;
 }
 @keyframes rotateY {
     0% {transform: rotateY(0deg);}
@@ -166,7 +162,7 @@ body {
 }
 .transitionColor4:hover {
     width: 7vw;
-    background-color: #59daa6;
+    background-color: #3c9370;
 }
 .transitionColor5 {
     width: 13vw;
@@ -224,7 +220,7 @@ body {
     color: #b072bd;
 }
 .color3 {
-    color: #59daa6;
+    color: #3c9370;
 }
 .color4 {
     color: #f8b63c;
@@ -270,7 +266,7 @@ body {
     color: #f13939;
 }
 #sectionOk p {
-    padding: 0 3vw 5vh 3vw;
+    padding: 0 5vw;
 }
 .galeriaOk {
     width: 70vw;
@@ -302,14 +298,9 @@ body {
 }
 
 /* mediaQuerie mobile OBJECT KEEPERS */
-@media (min-width: 320px) and (max-width: 425px) {
-    #sectionOk h2 {
-        padding: 3vh;
-        font-size: 1rem;
-    }
-    #sectionOk p {
-        font-size: 0.6rem;
-        padding-left: 8vw;
+@media screen and (max-width: 1023px) {
+    .galeriaOk {
+        width: auto;
     }
 }
 
@@ -361,10 +352,9 @@ body {
 }
 
 /* mediaQuerie mobile CATALOG */
-@media (min-width: 320px) and (max-width: 425px) {
-    #sectionCatalog h2 {
-        padding: 3vh;
-        font-size: 1rem;
+@media screen and (max-width: 1023px) {
+    .galeriaCatalog {
+        width: auto;
     }
 }
 
@@ -379,10 +369,10 @@ body {
     text-align: left;
     line-height: 2;
     font-size: 1.5rem;
-    color: #59daa6;
+    color: #3c9370;
 }
 #sectionUs p {
-    padding: 0 3vw 5vh 3vw;
+    padding: 0 5vw;
    /*  line-height: ;
     word-spacing: ; 
     letter-spacing: ; */
@@ -395,23 +385,14 @@ body {
     display: inline-block
 }
 .youtube {
-    width: 560px;
-    height: 315px;
+    width: 70vw;
+    height: 60vh;
 }
 
 /* mediaQuerie mobile US */
-@media (min-width: 320px) and (max-width: 425px) {
-    #sectionUs h2, h3 {
-        padding: 3vh;
-        font-size: 1rem;
-    }
-    #sectionUs p {
-        font-size: 0.6rem;
-        padding-left: 8vw;
-    }
-    .youtube {
-        width: 56vw;
-        height: 20vh;
+@media screen and (max-width: 1023px) {
+    #sectionUs {
+        width: auto;
     }
 }
 
@@ -480,27 +461,14 @@ body {
 }
 
 /* mediaQuerie mobile SHOP INFORMATION */
-@media (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 720px) {
     .shopInfo_grid {
         display: flex;
         flex-direction: column;
     }
-    .contact h2 {
-        padding: 3vh;
-        font-size: 1rem;
-    }
-    .location h2 {
-        padding: 3vh;
-        font-size: 1rem;
-    }
-    .googleMap {
-        width: 120px;
-        height: 90px;
-    }
-    .estampilla {
-        width: 25vw;
-    }
-    .datos {
-        font-size: 0.5rem;
+}
+@media screen and (max-width: 1023px) {
+    .shopInfo_grid {
+        width: auto;
     }
 }
