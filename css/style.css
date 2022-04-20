@@ -433,9 +433,6 @@ body {
     grid-template-rows: repeat(2, 1fr);
     gap: 2vh;
 }
-.information {
-    grid-column: ;
-}
 
 /* contact */
 .contact h2 {
