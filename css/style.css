@@ -230,7 +230,8 @@ body {
 
 /* HOME */
 #main h2 {
-    padding: 5vh;
+    margin: 0 24px;
+    padding: 8vh 0;
     text-align: center;
     line-height: 2;
     font-size: 1.5rem;
@@ -253,7 +254,8 @@ body {
 }
 .galeriaHome {
     width: 70vw;
-    padding: 3vh;
+    margin: 0 20px;
+    padding-bottom: 5vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 0.6fr);
@@ -302,20 +304,20 @@ body {
     grid-area: content;
 }
 #sectionOk h2 {
-    padding: 3vh;
+    margin: 0 20px;
+    padding: 5vh 0;
     text-align: left;
     line-height: 2;
     font-size: 1.5rem;
     color: #f13939;
 }
 #sectionOk p {
-    padding: 0 8vw;
+    margin: 0 20px 40px 20px;
 }
 .galeriaOk {
     width: 70vw;
-    padding: 3vh;
-    /* border: 1.5vh solid #f13939;
-    border-style: double; */
+    margin: 0 20px;
+    padding-bottom: 5vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 0.4fr);
@@ -342,7 +344,8 @@ body {
     grid-area: content;
 }
 #sectionCatalog h2 {
-    padding: 5vh;
+    margin: 0 20px;
+    padding: 5vh 0;
     text-align: left;
     line-height: 2;
     font-size: 1.5rem;
@@ -350,9 +353,8 @@ body {
 }
 .galeriaCatalog {
     width: 70vw;
-    padding: 3vh;
-    /* border: 1.5vh solid #b072bd;
-    border-style: double; */
+    margin: 0 20px;
+    padding-bottom: 5vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(7, 0.5fr);
@@ -379,23 +381,19 @@ body {
     grid-area: content;
 }
 #sectionUs h2, h3 {
-    padding: 3vh;
+    margin: 0 20px;
+    padding: 3vh 0;
     text-align: left;
     line-height: 2;
     font-size: 1.5rem;
     color: #3c9370;
 }
 #sectionUs p {
-    padding: 0 8vw;
-   /*  line-height: ;
-    word-spacing: ; 
-    letter-spacing: ; */
+    margin: 0 20px;
 }
 .videoUs {
-    /* border: 1.5vh solid #59daa6;
-    border-style: double; */
     background-color: #59daa6;
-    margin: 5vh;
+    margin: 0 20px 10vh 20px;
     display: inline-block
 }
 .youtube {
@@ -436,31 +434,38 @@ body {
     gap: 2vh;
 }
 .information {
-    grid-column: 2/3;
+    grid-column: ;
 }
 
 /* contact */
 .contact h2 {
-    padding: 5vh;
+    margin: 0 20px;
+    padding: 2vh 0;
     text-align: left;
     line-height: 2;
     font-size: 1.5rem;
     color: #f8b63c
 }
+.formContact {
+    background-color: #f8b63c;
+    margin: 0 20px;
+    padding: 10px 0;
+}
 .mb-3 {
-    padding: 0 0 0 3vw;
+    padding: 0 20px;
 }
 
 /* location */
 .location h2 {
-    padding: 5vh;
+    margin: 0 20px;
+    padding: 2vh 0;
     text-align: left;
     line-height: 2;
     font-size: 1.5rem;
     color: #f8b63c
 }
 .map {
-    padding: 0 3vw 5vh 3vw;
+    margin: 0 20px 5vh 20px;
 }
 .googleMap {
     width: 350px;
@@ -469,10 +474,10 @@ body {
 
 /* information */
 .information {
-    padding: 0 3vw 5vh 3vw;
+    padding: 0 3vw 5vh 20px;
 }
 .estampilla { /* ESTAMPILLA */
-    width: 300px;
+    width: 280px;
     background-color: #f8b63c;
     background-image: url(../img/GS_logo_3.png);
     background-size: 20px;
@@ -480,7 +485,7 @@ body {
     background-repeat: repeat-y;
 }
 .wwshipp {
-    padding: 0.5vh 0 0 0.5vw;
+    padding: 4px 8px;
 }
 .datos {
     padding-top: 2vh;
