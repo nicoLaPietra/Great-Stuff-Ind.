@@ -1,7 +1,7 @@
 {
   "name": "great-stuff-ind.",
   "version": "1.0.0",
-  "description": "busqueda, creacion y venta de objetos",
+  "description": "busqueda, restauracion, creacion y venta de objetos",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
