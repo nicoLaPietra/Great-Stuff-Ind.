@@ -208,28 +208,23 @@ body {
 
 /* -------- ESTILOS PAGES -------- */
 /* HOME */
-#main h2 {
-  margin: 0 24px;
-  padding: 8vh 0;
-  text-align: center;
-  line-height: 2;
-  font-size: 1.5rem; }
-
 #main {
   grid-area: content; }
-
-.color1 {
-  color: #f13939; }
-
-.color2 {
-  color: #b072bd; }
-
-.color3 {
-  color: #3c9370; }
-
-.color4 {
-  color: #f8b63c;
-  text-decoration-line: underline; }
+  #main h2 {
+    margin: 0 26px;
+    padding: 6vh 0;
+    text-align: center;
+    line-height: 2;
+    font-size: 1.5rem; }
+    #main h2 .color1 {
+      color: #f13939; }
+    #main h2 .color2 {
+      color: #b072bd; }
+    #main h2 .color3 {
+      color: #3c9370; }
+    #main h2 .color4 {
+      color: #f8b63c;
+      text-decoration-line: underline; }
 
 .galeriaHome {
   width: 70vw;

@@ -7,6 +7,10 @@
 
 /* -------- ESTILOS GENERALES -------- */
 
+//IMPORT PARTIALS
+@import "vars";
+
+
 /* body ---------------*/
 body {
     font-family: 'Red Hat Mono', monospace;
@@ -229,29 +233,31 @@ body {
 /* -------- ESTILOS PAGES -------- */
 
 /* HOME */
-#main h2 {
-    margin: 0 24px;
-    padding: 8vh 0;
-    text-align: center;
-    line-height: 2;
-    font-size: 1.5rem;
-}
+
 #main {
     grid-area: content;
+    h2 {
+        margin: 0 26px;
+        padding: 6vh 0;
+        text-align: center;
+        line-height: 2;
+        font-size: 1.5rem;
+        .color1 {
+            color: $colorRed;
+        }
+        .color2 {
+            color: $colorViolet;
+        }
+        .color3 {
+            color: $colorGreen;
+        }
+        .color4 {
+            color: $colorOrange;
+            text-decoration-line: underline;
+        }
+    }
 }
-.color1 {
-    color: #f13939;
-}
-.color2 {
-    color: #b072bd;
-}
-.color3 {
-    color: #3c9370;
-}
-.color4 {
-    color: #f8b63c;
-    text-decoration-line: underline;
-}
+
 .galeriaHome {
     width: 70vw;
     margin: 0 20px;
@@ -267,9 +273,11 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+
 .estiloCajas {
     margin: 1px;
-    border: 1px solid #f13939;
+    border: 1px solid $colorRed;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
