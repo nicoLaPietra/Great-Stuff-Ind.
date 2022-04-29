@@ -57,7 +57,7 @@ body {
 }
 .estiloCajas3 {
     @extend .estiloCajas;
-    border-color: $colorLightBlue;
+    border-color: $colorBlack;
 }
 
 @mixin btn ($color) {
@@ -152,7 +152,7 @@ body {
 }
 @media screen and (max-width: 575px) {
     a, .navbar-brand {
-        font-size: 145%;
+        font-size: 85%;
     }
 }
 @media screen and (max-width: 991px) {

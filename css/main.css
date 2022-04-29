@@ -40,7 +40,7 @@ body {
   border-color: #b072bd; }
 
 .estiloCajas3 {
-  border-color: #c8ebf5; }
+  border-color: #000; }
 
 .btn-red {
   display: inline-block;
@@ -124,7 +124,7 @@ body {
 
 @media screen and (max-width: 575px) {
   a, .navbar-brand {
-    font-size: 145%; } }
+    font-size: 85%; } }
 
 @media screen and (max-width: 991px) {
   .formHeader {
