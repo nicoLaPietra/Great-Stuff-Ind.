@@ -41,6 +41,10 @@ body {
 
 .estiloCajas3 {
   border-color: #000; }
+  .estiloCajas3 .marcadorRed {
+    color: #f13939; }
+  .estiloCajas3 .marcadorViolet {
+    color: #b072bd; }
 
 .btn-red {
   display: inline-block;
@@ -467,6 +471,10 @@ body {
   background-size: 20px;
   background-position: right;
   background-repeat: repeat-y; }
+
+.linkRedes {
+  text-decoration: none;
+  color: #000; }
 
 .wwshipp {
   padding: 1px 8px; }
