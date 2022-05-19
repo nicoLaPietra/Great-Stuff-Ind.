@@ -442,6 +442,15 @@ body {
 .mb-3 {
   padding: 0 20px; }
 
+.btn-orange {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 2px 20px 8px 20px;
+  background-color: #ffffff;
+  border: 1px solid #f8b63c;
+  border-radius: 5px;
+  font-style: italic; }
+
 /* location */
 .location h2 {
   margin: 0 20px;
@@ -460,7 +469,7 @@ body {
 
 /* information */
 .information {
-  padding: 0 3vw 5vh 20px; }
+  margin: 15px 3vw 5vh 20px; }
 
 .estampilla {
   /* ESTAMPILLA */

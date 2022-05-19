@@ -79,7 +79,7 @@ body {
     @include btn($colorRed);
 }
 .btn-violet {
-    @include btn($colorViolet)
+    @include btn($colorViolet);
 }
 
 /* mediaQuerie mobile Cajas - Botones */
@@ -505,6 +505,15 @@ body {
 .mb-3 {
     padding: 0 20px;
 }
+.btn-orange {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2px 20px 8px 20px;
+    background-color: #ffffff;
+    border: 1px solid $colorOrange;
+    border-radius: 5px;
+    font-style: italic;
+}
 
 /* location */
 .location h2 {
@@ -525,7 +534,7 @@ body {
 
 /* information */
 .information {
-    padding: 0 3vw 5vh 20px;
+    margin: 15px 3vw 5vh 20px;
 }
 .estampilla { /* ESTAMPILLA */
     width: 270px;
